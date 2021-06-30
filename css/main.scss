@@ -1,0 +1,167 @@
+
+body {
+    background: white;
+    margin: 0;
+}
+
+.navbar {
+    background: white;
+    padding: 1em;
+
+    .logo {
+        font-size: 1.5em;
+        letter-spacing: .5em;
+        font-weight: bold;
+        margin-left: 150px;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+    nav {
+        display: none;
+    }
+    
+    .container {
+        display: flex;
+        
+    }
+    
+    .mobile-menu {
+        cursor: pointer;
+    }
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.first img{
+    width: 100%;
+}
+
+.summer {
+    line-height: .8em;
+    padding-left: 1em;
+    margin-top: -8em;
+    color: white;
+
+    a {
+        color: white;
+    }
+}
+
+.second {
+    img {
+        width: 100%;
+        margin-top: 3em;
+        margin-left: 1em;
+        margin-right: -2em;
+    }
+
+    .hero {
+        padding: 1em;
+        line-height: .7em;
+    }
+}
+
+.third {
+    display: inline-block;
+    img {
+        width: 50%;
+    }
+}
+
+.Sixth {
+    padding-left: 3px;
+    margin: 0;
+}
+.form1 {
+    padding-left: 1px;
+    display: flex;
+    border-collapse: collapse;
+    justify-content: space-between;
+    
+}
+.last {
+    padding: 3px;
+    width: 100%;
+    border: black;
+    img{
+        width: 11.5%;
+        padding-top: 2em;
+    }
+}
+
+nav.mobile-menu {
+    display: block;
+}
+
+nav {
+    position: fixed;
+    z-index: 999;
+    width: 66%;
+    left: 0;
+    top: 0;
+    background: rgb(166, 203, 238);
+    height: 100vh;
+    padding: 1em;
+
+    ul.primary-nav {
+        margin-top: 5em;
+    }
+
+    a {
+        color: black;
+        text-decoration: none;
+        display: inline-flex;
+        padding: .5em;
+        font-size: 1.3em;
+        text-align: right;
+
+        &:hover {
+            font-weight: bold;
+        }
+    }
+}
+
+.mobile-exit {
+    float: left;
+    margin: .5em;
+    cursor: pointer;
+}
+
+.Fourth {
+    padding: 1em;
+
+    img {
+        width: 100%;
+    }
+}
+
+.Fifth {
+    padding: 1em;
+
+    img {
+        width: 100%;
+    }
+}
+
+span {
+    text-decoration: line-through;
+}
+
+.head {
+    text-align: center;
+    line-height: 1em;
+}
+
+.img1 {
+    width: 100%;
+}
